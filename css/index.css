@@ -1,0 +1,157 @@
+body {
+  background: url(../img/rockstar.logo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 5px;
+}
+
+main {
+  width: 100%;
+  height: 500px;
+  /* background: red; */
+  margin-top: 300px;
+  /* são 4 valores para arredondar os 4 cantos */
+}
+#principal{
+  color: #3a3b3e;
+  margin-left: 10%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.formulario {
+  width: 80%;
+  height: 50px;
+  margin-left: 10%;
+  margin-top: 5%;
+  border: 1;
+  border-color: #7a7878;
+  background: #ffffff;
+  outline: none;
+  /* TEXTO */
+  text-indent: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #16d39a;
+}
+
+div{
+  width: 20%;
+  height: 50px;
+  margin-left: 73%;
+  margin-top: 5%;
+}
+#login{
+  color: #383a39;
+  margin-top: -50px;
+  margin-left: 10%;
+  margin-right: 50%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+form{
+align-items: center;
+background-color: #ffffff;
+margin-right: auto;
+margin-left: auto;
+width: 30%;
+height: 350px;
+position: absolute;
+top: 35%;
+left: 35%;
+border-radius: 3px;  
+}
+.retangulo{
+  width: 100%;               /* Largura do retângulo */
+  height: 80px;              /* Altura do retângulo */
+  background-color: #ffffff;  /* Cor de fundo do retângulo */
+  border-radius: 3px;        /* Arredondar as bordas, se necessário */
+  margin-right: auto;
+  margin-left: auto;
+  margin-left: auto;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-top: -20px;
+}
+main button {
+  text-indent: 0 !important;
+  background: #d1a618 !important;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#esqueceu {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1em;
+  margin: 10%;
+  color: #3a3a3a;
+  font-weight: bold;
+  margin-top: -10%;
+  height: max-content;
+  margin-top: -40px;
+  margin-left: 10%;
+  
+}
+small{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1em;
+  color: #fffbfb;
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin-top: 10%;
+  display: inline;
+  display: block;
+}
+small a{
+  text-decoration: none;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 0.95em;
+  color: #d1a618;
+  font-weight: bold;
+  display: inline block;
+  margin-right: 0px;
+}
+/* Tablets e Notebooks */
+@media (min-width: 769px) and (max-width: 1279px) {
+  body{
+    
+    background-position-x: center;
+    background: #fff;
+  }
+  main{
+    width: 45%;
+    height: auto;
+    float: right;
+    /* background: red; */
+    margin-right: 5%;
+  }
+}
+.container {
+  text-align: center;  /* Centraliza as imagens no contêiner */
+  text-align: left;
+}
+#bt-Xbox{
+  background-image: url('../img/Xbox_one_logo.svg.png');
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position-x: 8px;
+  background-position-y: center;
+  text-indent: 15px;
+  color: #283673;
+  font-weight: bold;
+  position: relative;
+  width: 250px;  /* Ajuste o tamanho da imagem conforme necessário */
+  top: -53px;  /* Move a imagem 50px para cima */
+  margin-right: auto;
+  margin-left: 85%;
+}
+#bt-PlayStation{
+  background-image: url(../img/logo\ novo\ ps2.png);
+  background-size: 25%;
+  background-repeat: no-repeat;
+  width: 200px;  /* Ajuste o tamanho da imagem conforme necessário */
+  position: relative;
+  top: 20px;  /* Move a imagem 50px para cima */
+  display: flex;
+  margin-right: 85%;
+  margin-left: 50%;
+  background-position-x: 100px;
+  background-position-y: center;
+}
